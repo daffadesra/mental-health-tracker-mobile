@@ -75,7 +75,7 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                   },
                   validator: (String? value) {
                     if (value == null || value.isEmpty) {
-                      return "Feelings tidak boleh kosong!"
+                      return "Feelings tidak boleh kosong!";
                     }
                     return null;
                   },
